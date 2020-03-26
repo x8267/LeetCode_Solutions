@@ -1,9 +1,6 @@
 
-单队列代码如下：
+//单队列代码如下：
 
-
-
-```c++
 /**
 
    * Definition for a binary tree node.
@@ -13,9 +10,8 @@
    * TreeNode *right;
    * TreeNode(int x) : val(x), left(NULL), right(NULL) {}
    * };
-     */
+   */
 
-**/
   class Solution {
   public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -44,12 +40,10 @@
 
     }
   };
-```
 
 
-双队列代码如下：
+//双队列代码如下：
 
-```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -98,4 +92,3 @@ public:
         return ans;
     }
 };
-```
